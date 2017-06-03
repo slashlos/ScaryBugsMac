@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MasterViewController.h
 //  ScaryBugsMac
 //
 //  Created by Carlos D. Santiago on 6/2/17.
@@ -8,8 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
+@interface MasterViewController : NSViewController
 
+@property (strong) NSMutableArray *bugs;
 
 @end
-
